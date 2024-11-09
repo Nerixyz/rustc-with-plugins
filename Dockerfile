@@ -19,6 +19,8 @@ rm -rf /tmp/* /var/tmp/*
 
 update-ca-certificates
 
+update-alternatives --install /usr/bin/lld lld /usr/bin/lld-18 20
+
 EOF
 
 ENV CC clang-18
