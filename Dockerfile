@@ -13,7 +13,7 @@ apt install -y --no-install-recommends \
     build-essential git cmake ninja-build \
     git cmake ninja-build ca-certificates \
     libssl-dev python3 curl pkg-config \
-    llvm-18-dev libpolly-18-dev
+    llvm-18-dev libpolly-18-dev zstd
 apt clean
 rm -rf /tmp/* /var/tmp/*
 
