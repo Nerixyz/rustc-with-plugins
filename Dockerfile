@@ -8,6 +8,8 @@ RUN <<EOF
 
 set -ex
 
+update-ca-certificates
+
 apt update
 apt install -y --no-install-recommends \
     build-essential git cmake ninja-build clang-18 \
