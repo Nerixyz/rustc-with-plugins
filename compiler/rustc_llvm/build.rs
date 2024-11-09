@@ -302,7 +302,7 @@ fn main() {
             continue;
         }
 
-        let kind = if name.starts_with("LLVM") {
+        let kind = if name.starts_with("LLVM") || name.starts_with("Polly") {
             llvm_kind
         } else if is_static {
             "static"
